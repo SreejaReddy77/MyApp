@@ -38,7 +38,17 @@ const Welcome =(props:any)=>{
     return(
         <Box sx={{ width: '100%' }}>
                 <Grid container justifyContent={"center"}>
-                        <BTTypography variant={"h5"}  >Baird Trust Special Assets</BTTypography>
+                       <BTTypography variant={"h5"}  
+                                        fontSize={30}
+                                        sx={{
+                                                margin:'4rem',
+                                                textAlign: 'center',
+                                                fontFamily: 'Myriad Pro',
+                                                fontSize: 30,
+                                                fontWeight: 'bold'
+                                                }} 
+                                        >Baird Trust Special Assets
+                                </BTTypography>  
                 </Grid>
                 <br/><br/><br/>
 
